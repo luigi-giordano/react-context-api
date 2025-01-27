@@ -9,7 +9,9 @@ const PostsList = () => {
     <div className="container">
       <ul className="mt-4 space-y-4">
         {posts.map((post) => (
-          <li key={post.id} className="p-4 border rounded-lg shadow-md">
+          <li
+            key={post.id}
+            className="p-4 border rounded-lg shadow-md">
             <h2 className="font-bold text-primary">{post.title}</h2>
             <p>{post.content}</p>
           </li>

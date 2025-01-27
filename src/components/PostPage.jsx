@@ -1,7 +1,3 @@
-import { useContext } from "react";
-import { PostsContext } from "../context/PostsContext";
-import PostsList from "./PostList";
-
 const PostsPage = () => {
   return (
     <div className="p-4">
